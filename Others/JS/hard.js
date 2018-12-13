@@ -15,10 +15,17 @@ var endGame = false
 var t
 var timerOn = false
 
+<<<<<<< HEAD
 scoreDisplay.innerHTML= "Don't trigger the cat..."
 
 replay.innerHTML = '<a href="hard.html">'+'<img src = "Images/replay.png"/>'+'</a>';
 minesDisplay.innerHTML = "Hidden Cats: " + numberOfCats;
+=======
+scoreDisplay.innerHTML= "Don't trigger the cats..."
+
+replay.innerHTML = '<a href="easy.html">'+'<img src = "Images/replay.png"/>'+'</a>';
+minesDisplay.innerHTML = "Cats hidden: " + numberOfCats;
+>>>>>>> master
 
 var counter = -1;//set this to what ever you want the start # to be
     //call the function once
@@ -148,7 +155,7 @@ function onCellClick(event){
 }
 
 function checkSurroundings(row, column){
-
+    new Audio('Audio/button.mp3').play()
     if (document.getElementById("button-"+row+"-"+column).innerHTML != ""){
 
         return
