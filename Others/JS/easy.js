@@ -16,6 +16,7 @@ var t
 var timerOn = false
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 scoreDisplay.innerHTML= "Don't trigger the cat..."
 
 replay.innerHTML = '<a href="easy.html">'+'<img src = "Images/replay.png"/>'+'</a>';
@@ -25,6 +26,13 @@ scoreDisplay.innerHTML= "Don't trigger the cats..."
 
 replay.innerHTML = '<a href="easy.html">'+'<img src = "Images/replay.png"/>'+'</a>';
 minesDisplay.innerHTML = "Cats hidden: " + numberOfCats;
+>>>>>>> master
+=======
+
+scoreDisplay.innerHTML= "Don't trigger the cats..."
+
+replay.innerHTML = '<a href="easy.html">'+'<img src = "Images/replay.png"/>'+'</a>';
+minesDisplay.innerHTML = "Hidden Cats: " + numberOfCats;
 >>>>>>> master
 
 var counter = -1;//set this to what ever you want the start # to be
