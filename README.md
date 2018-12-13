@@ -1,6 +1,6 @@
 
 ____________________________
-[**Naughty Cats Minesweeper**](https://lydiacheung.github.io/naughtycats/)
+[**Naughty Cats Minesweeper**](https://lydiacheung.github.io/naughtycats/) <- CLICK TO PLAY
 ____________________________
 
 Build by Lydia Cheung
