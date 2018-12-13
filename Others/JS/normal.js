@@ -15,10 +15,10 @@ var endGame = false
 var t
 var timerOn = false
 
-scoreDisplay.innerHTML= "Finding in progress..."
+scoreDisplay.innerHTML= "Don't trigger the cats..."
 
-replay.innerHTML = '<a href="normal.html">'+'<img src = "Images/replay.png"/>'+'</a>';
-minesDisplay.innerHTML = "Cats Left To Find: " + numberOfCats;
+replay.innerHTML = '<a href="easy.html">'+'<img src = "Images/replay.png"/>'+'</a>';
+minesDisplay.innerHTML = "Cats hidden: " + numberOfCats;
 
 var counter = -1;//set this to what ever you want the start # to be
     //call the function once
@@ -110,6 +110,7 @@ function onCellClick(event){
 
         //set flag
         if (click == 3){
+            new Audio('Audio/bell.mp3').play()
             button.innerHTML = '<img src="Images/fishbone.png" />';
 
             if (board[row][column]==mine){
@@ -145,7 +146,7 @@ function onCellClick(event){
 }
 
 function checkSurroundings(row, column){
-
+    new Audio('Audio/button.mp3').play()
     if (document.getElementById("button-"+row+"-"+column).innerHTML != ""){
 
         return
