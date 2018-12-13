@@ -129,6 +129,8 @@ function onCellClick(event){
         if (board[row][column] == mine){
         new Audio('Audio/meow.mp3').play()
         button.innerHTML = '<img src="Images/cat.png" />';
+        numberOfCats = numberOfCats - 1;
+        minesDisplay.innerHTML = "Hidden Cats: " + numberOfCats;
         endGame = true;
         resultsPrompt();
         } else {
