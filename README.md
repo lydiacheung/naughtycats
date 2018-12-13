@@ -1,6 +1,6 @@
 
 ____________________________
-**Naughty Cats Minesweeper**
+[**Naughty Cats Minesweeper**](https://lydiacheung.github.io/naughtycats/) <- CLICK TO PLAY
 ____________________________
 
 Build by Lydia Cheung
@@ -17,11 +17,12 @@ ____________________________
 **Game Instructions**:
 ____________________________
 
-1. Run Index.html on Chrome Browser
+1. Know Minesweeper rules. In this game, bombs are cats and flags are fishbones.
 2. Select Mode Preference (Easy/Normal/Hard)
-3. Play Minesweeper!
+3. Left Click for Select, Right Click to Flag
 ____________________________
 Unsolved Problems:
 ____________________________
 - button sizing for normal and hard mode
 - repeated clicks on cat mines will decrease numberOfCats display
+- unable to unselect a flagged button
